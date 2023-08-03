@@ -1,0 +1,198 @@
+#subtitulo {
+    color: white;
+    padding-left: 20%;
+    padding-right:20%;
+    font-size: 30px;
+    align: "center" width="80%";
+}
+
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-decoration: initial;
+}
+
+#caixa {
+    width: 60%;
+    height: 50%;
+    border: 3px solid tomato;
+    text-align: center;
+    line-height: 89.5px;
+    text-transform: uppercase; 
+    font-size: 60px;
+    letter-spacing: 60px;
+    text-decoration:  none;
+    align-self: hover;
+}
+
+.icone {
+    width: 51px;
+}
+
+.section {
+    padding: 20px;
+    float: left;
+}
+
+.destaque {
+    background-color: #17a3da;
+    width: 100%;
+    
+}
+
+.imgeco {
+    width: 85%;
+    height: 30%;
+}
+
+.coluna {
+    float: left;
+    padding:0 5%;
+    position: relative;
+}
+
+.dois {
+    width: 40%;
+}
+
+.tres {
+    width: 29%;
+    padding: 0 2%;
+
+
+}
+
+.quatro {
+    width: 15%;
+
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.destaque2 {
+    background-color: rgb(2, 35, 128);
+    
+    
+}
+
+.icone {
+    width: 51px;
+}
+
+.imgeco {
+    width:85%;
+    height: 30%;
+}
+
+#imagem_fundo{
+    background: url(fundo.jpg);
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+
+}
+#titulo {
+    text-align: center;
+    color: white ;
+    padding-top: 10%;
+    font-size: 70px;
+}
+
+.imgsb {
+    width: 100%;
+    height: 50%;
+}
+
+.rodape {
+   background-color: #17a3da;
+   height:20%;
+
+   
+}
+
+#logo{
+    width: 96px;
+    position: absolute;
+    top: 10%;
+    margin-left: 2%;
+    border: 1xp rgb(237, 233, 233);
+}
+
+#menu {
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    font-size: 20;
+    color: white;
+}
+
+header {
+ background-color: rgb(10, 10, 10) ;
+ color: aliceblue;
+ weight: 60px;
+ width: 100%;
+ position: fixed;
+ z-index: 10;
+}
+
+.li {
+  float: left;
+  padding: 20 25 20 25;
+ 
+}
+
+
+html, body{
+  margin: 0%;
+}
+
+.destaque3 {
+  background-color: rgb(111, 8, 221);
+  
+}
+
+.li:hover {
+  background-color: rgb(123, 237, 237);
+
+
+}
+body{
+  background-color: #17a3da;
+  
+
+}
+
+#ordenada {
+    float: left;
+    list-style: decimal;
+    margin-top: 0%;
+}
+
+#desordenada {
+   float: left;
+   list-style: disc;
+   margin-top: 0%;
+}
+
+@media all and(max-width: 600px) {
+  #menu{
+   visibility:hidden;
+  }
+  .coluna, .dois, .tres, .quatro{  
+    display: block;
+    float: none;
+    margin: 10px auto;
+    padding: 0%;
+    width: 80%;
+  }
+}
+
